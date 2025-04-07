@@ -8,6 +8,7 @@ import asyncio
 # ===== KEEP_ALIVE WEB SERVER =====
 from flask import Flask
 from threading import Thread
+from keep_alive import keep_alive
 
 app = Flask('')
 
